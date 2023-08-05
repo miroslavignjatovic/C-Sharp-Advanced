@@ -1,1 +1,175 @@
+using System;
 
+namespace Cas7Adv
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            List<Person> personList = new List<Person>
+            {
+                new Person { FirstName = "Alice", LastName = "Smith", Age = 25, Country = "USA", Hobbies = new List<string> { "Reading", "Hiking" } },
+                new Person { FirstName = "Bob", LastName = "Johnson", Age = 30, Country = "Canada", Hobbies = new List<string> { "Cooking", "Painting" } },
+                new Person { FirstName = "Charlie", LastName = "Brown", Age = 22, Country = "UK", Hobbies = new List<string> { "Swimming", "Gaming" } },
+                new Person { FirstName = "David", LastName = "Wilson", Age = 27, Country = "USA", Hobbies = new List<string> { "Photography", "Gardening" } },
+                new Person { FirstName = "Emily", LastName = "Davis", Age = 28, Country = "Canada", Hobbies = new List<string> { "Traveling", "Yoga" } },
+                new Person { FirstName = "John", LastName = "Smith", Age = 35, Country = "USA", Hobbies = new List<string> { "Reading", "Cooking", "Hiking" } },
+                new Person { FirstName = "Jane", LastName = "Doe", Age = 32, Country = "Canada", Hobbies = new List<string> { "Reading", "Gaming" } },
+                new Person { FirstName = "Michael", LastName = "Brown", Age = 24, Country = "UK", Hobbies = new List<string> { "Swimming", "Hiking" } },
+                new Person { FirstName = "Daniel", LastName = "Wilson", Age = 30, Country = "USA", Hobbies = new List<string> { "Gardening" } },
+                new Person { FirstName = "Emma", LastName = "Johnson", Age = 29, Country = "Canada", Hobbies = new List<string> { "Yoga", "Cooking" } },
+                new Person { FirstName = "Olivia", LastName = "Smith", Age = 23, Country = "USA", Hobbies = new List<string> { "Reading", "Gardening" } },
+                new Person { FirstName = "James", LastName = "Davis", Age = 26, Country = "Canada", Hobbies = new List<string> { "Traveling" } },
+                new Person { FirstName = "Noah", LastName = "Brown", Age = 29, Country = "UK", Hobbies = new List<string> { "Swimming", "Gaming" } },
+                new Person { FirstName = "Ella", LastName = "Wilson", Age = 28, Country = "USA", Hobbies = new List<string> { "Photography", "Cooking" } },
+                new Person { FirstName = "Liam", LastName = "Davis", Age = 31, Country = "Canada", Hobbies = new List<string> { "Reading", "Yoga" } }
+            };
+
+            List<string> PersonfromUsa = personList.Where(p => p.Country == "USA").Select(p => p.FirstName).ToList();
+            Console.WriteLine("Pesron from Usa:");
+            foreach (string person in PersonfromUsa)
+            {
+
+                Console.WriteLine(person);
+            }
+            Console.WriteLine("............................");
+
+            Person oldestPerson = personList.OrderByDescending(p => p.Age).FirstOrDefault();
+
+            Console.WriteLine("Najstarija osoba:");
+            Console.WriteLine(oldestPerson.FirstName);
+
+            Console.WriteLine("............................");
+
+            double SumOfAge = personList.Average(p => p.Age);
+            Console.WriteLine("Average age: ");
+            Console.WriteLine(SumOfAge.ToString());
+
+            Console.WriteLine("............................");
+            List<string> NamesStartJ = personList.Where(p => p.FirstName.StartsWith("J", StringComparison.OrdinalIgnoreCase))
+                                                 .Select(p => p.FirstName)
+                                                 .ToList();
+            Console.WriteLine("First Name of person start with J: ");
+            foreach (string name in NamesStartJ)
+            {
+                Console.WriteLine(name);
+            }
+            Console.WriteLine("............................");
+
+            List<Person> ThreeYoungestPersons = personList
+                                                .OrderBy(p => p.Age)
+                                                .ThenBy(p => p.FirstName)
+                                                .Take(3)
+                                                .ToList();
+            Console.WriteLine("Three Youngest Persons: ");
+            foreach (Person person in ThreeYoungestPersons)
+            {
+                Console.WriteLine($"{person.FirstName} {person.LastName} - {person.Age}");
+            }
+            Console.WriteLine("............................");
+            List<Person> PersonsOfhobbiesReading = personList
+                                                 .Where(p => p.Hobbies.Contains("Reading"))
+                                                 .ToList();
+            Console.WriteLine("Osobe koje imaju citanje za hobi: ");
+            foreach (Person person in PersonsOfhobbiesReading)
+            {
+                Console.WriteLine($"{person.FirstName} {person.LastName}");
+            }
+            Console.WriteLine("............................");
+            List<string> uniqueCountries = personList
+                                            .Select(p => p.Country)
+                                            .Distinct()
+                                            .ToList();
+
+            Console.WriteLine("Unique countries represented in the list:");
+            foreach (string country in uniqueCountries)
+            {
+                Console.WriteLine(country);
+            }
+            Console.WriteLine("............................");
+            List<Person> ListPersonArangedByAge = personList
+                                                  .OrderBy(p => p.Age)
+                                                  .ThenBy (p => p.FirstName)
+                                                  .ToList();
+            Console.WriteLine("List of person aranged by Age: ");
+            foreach (Person person in ListPersonArangedByAge)
+            {
+                Console.WriteLine($"{person.FirstName} {person.LastName} - {person.Age}");
+            }
+            Console.WriteLine("............................");
+            List<string> PersonWith30Age = personList
+                                            .Where(p => p.Age == 30)
+                                            .Select(p => p.FirstName)
+                                            .ToList();
+
+            Console.WriteLine("Osobe koje imaju 30 godina: ");
+            foreach (string person in PersonWith30Age)
+            {
+                Console.WriteLine(person);
+            }
+            Console.WriteLine("............................");
+            List<string> PersonFromUK = personList
+                                        .Where( p => p.Country =="UK")
+                                        .Select(p => p.FirstName)
+                                        .ToList();
+            Console.WriteLine("Person from Uk: ");
+            foreach (string person in PersonFromUK) 
+            {
+                Console.WriteLine(person);
+            }
+            Console.WriteLine("............................");
+            List<Person> PersonsHavehobbiesSingingAndDancing = personList
+                                                .Where(p => p.Hobbies.Contains("Singing") && p.Hobbies.Contains("Dancing"))
+                                                .ToList();
+            Console.WriteLine("Osobe koje imaju za hobi pevanje i igranje : ");
+            foreach (Person person in PersonsOfhobbiesReading)
+            {
+                Console.WriteLine($"{person.FirstName} {person.LastName}");
+            }
+            Console.WriteLine("............................");
+            List<string> fullNames = personList
+                                    .Select(p => $"{p.FirstName} {p.LastName}")
+                                    .ToList();
+
+            Console.WriteLine("Full names of all persons:");
+            foreach (string fullName in fullNames)
+            {
+                Console.WriteLine(fullName);
+            }
+            Console.WriteLine("............................");
+
+            int maxFirstNameLength = personList.Max(p => p.FirstName.Length);
+            List<Person> personsWithLongestFirstName = personList
+                .Where(p => p.FirstName.Length == maxFirstNameLength)
+                .ToList();
+
+            int maxLastNameLength = personList.Max(p => p.LastName.Length);
+            List<Person> personsWithLongestLastName = personList
+                .Where(p => p.LastName.Length == maxLastNameLength)
+                .ToList();
+
+            Console.WriteLine("Persons with the longest first name:");
+            foreach (Person person in personsWithLongestFirstName)
+            {
+                Console.WriteLine($"{person.FirstName} {person.LastName}");
+            }
+
+            Console.WriteLine("Persons with the longest last name:");
+            foreach (Person person in personsWithLongestLastName)
+            {
+                Console.WriteLine($"{person.FirstName} {person.LastName}");
+            }
+            Console.WriteLine("............................");
+            bool allPersonsHaveHobbies = personList.All(p => p.Hobbies.Any());
+
+            if (allPersonsHaveHobbies)
+            {
+                Console.WriteLine("All persons have at least one hobby.");
+            }
+            else
+            {
+                Console.WriteLine("Not all persons have at least one hobby.");
+            }
+        }
+    }
+}
