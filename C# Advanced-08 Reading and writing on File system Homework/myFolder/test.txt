@@ -1,0 +1,4 @@
+We are students in school
+We are writing text from StreamWriter!
+Hello SEDC!
+We are writing text from StreamWriter!

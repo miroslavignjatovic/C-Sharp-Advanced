@@ -1,0 +1,15 @@
+E:\Miroslav\Programiranje\C#\C# Advanced-08 Reading and writing on File system Homework\obj\Debug\net6.0\C# Advanced-08 Reading and writing on File system Homework.csproj.AssemblyReference.cache
+E:\Miroslav\Programiranje\C#\C# Advanced-08 Reading and writing on File system Homework\obj\Debug\net6.0\C# Advanced-08 Reading and writing on File system Homework.GeneratedMSBuildEditorConfig.editorconfig
+E:\Miroslav\Programiranje\C#\C# Advanced-08 Reading and writing on File system Homework\obj\Debug\net6.0\C# Advanced-08 Reading and writing on File system Homework.AssemblyInfoInputs.cache
+E:\Miroslav\Programiranje\C#\C# Advanced-08 Reading and writing on File system Homework\obj\Debug\net6.0\C# Advanced-08 Reading and writing on File system Homework.AssemblyInfo.cs
+E:\Miroslav\Programiranje\C#\C# Advanced-08 Reading and writing on File system Homework\obj\Debug\net6.0\C# Advanced-08 Reading and writing on File system Homework.csproj.CoreCompileInputs.cache
+E:\Miroslav\Programiranje\C#\C# Advanced-08 Reading and writing on File system Homework\bin\Debug\net6.0\C# Advanced-08 Reading and writing on File system Homework.exe
+E:\Miroslav\Programiranje\C#\C# Advanced-08 Reading and writing on File system Homework\bin\Debug\net6.0\C# Advanced-08 Reading and writing on File system Homework.deps.json
+E:\Miroslav\Programiranje\C#\C# Advanced-08 Reading and writing on File system Homework\bin\Debug\net6.0\C# Advanced-08 Reading and writing on File system Homework.runtimeconfig.json
+E:\Miroslav\Programiranje\C#\C# Advanced-08 Reading and writing on File system Homework\bin\Debug\net6.0\C# Advanced-08 Reading and writing on File system Homework.dll
+E:\Miroslav\Programiranje\C#\C# Advanced-08 Reading and writing on File system Homework\bin\Debug\net6.0\C# Advanced-08 Reading and writing on File system Homework.pdb
+E:\Miroslav\Programiranje\C#\C# Advanced-08 Reading and writing on File system Homework\obj\Debug\net6.0\C# Advanced-08 Reading and writing on File system Homework.dll
+E:\Miroslav\Programiranje\C#\C# Advanced-08 Reading and writing on File system Homework\obj\Debug\net6.0\refint\C# Advanced-08 Reading and writing on File system Homework.dll
+E:\Miroslav\Programiranje\C#\C# Advanced-08 Reading and writing on File system Homework\obj\Debug\net6.0\C# Advanced-08 Reading and writing on File system Homework.pdb
+E:\Miroslav\Programiranje\C#\C# Advanced-08 Reading and writing on File system Homework\obj\Debug\net6.0\C# Advanced-08 Reading and writing on File system Homework.genruntimeconfig.cache
+E:\Miroslav\Programiranje\C#\C# Advanced-08 Reading and writing on File system Homework\obj\Debug\net6.0\ref\C# Advanced-08 Reading and writing on File system Homework.dll

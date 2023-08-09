@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "C# Advanced-08 Reading and writing on File system Homework/1.0.0": {
+        "runtime": {
+          "C# Advanced-08 Reading and writing on File system Homework.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "C# Advanced-08 Reading and writing on File system Homework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
