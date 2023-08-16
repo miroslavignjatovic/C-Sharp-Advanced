@@ -1,0 +1,17 @@
+E:\Miroslav\Programiranje\C#\CasAdv11Homework\bin\Debug\net6.0\CasAdv11Homework.exe
+E:\Miroslav\Programiranje\C#\CasAdv11Homework\bin\Debug\net6.0\CasAdv11Homework.deps.json
+E:\Miroslav\Programiranje\C#\CasAdv11Homework\bin\Debug\net6.0\CasAdv11Homework.runtimeconfig.json
+E:\Miroslav\Programiranje\C#\CasAdv11Homework\bin\Debug\net6.0\CasAdv11Homework.dll
+E:\Miroslav\Programiranje\C#\CasAdv11Homework\bin\Debug\net6.0\CasAdv11Homework.pdb
+E:\Miroslav\Programiranje\C#\CasAdv11Homework\obj\Debug\net6.0\CasAdv11Homework.csproj.AssemblyReference.cache
+E:\Miroslav\Programiranje\C#\CasAdv11Homework\obj\Debug\net6.0\CasAdv11Homework.GeneratedMSBuildEditorConfig.editorconfig
+E:\Miroslav\Programiranje\C#\CasAdv11Homework\obj\Debug\net6.0\CasAdv11Homework.AssemblyInfoInputs.cache
+E:\Miroslav\Programiranje\C#\CasAdv11Homework\obj\Debug\net6.0\CasAdv11Homework.AssemblyInfo.cs
+E:\Miroslav\Programiranje\C#\CasAdv11Homework\obj\Debug\net6.0\CasAdv11Homework.csproj.CoreCompileInputs.cache
+E:\Miroslav\Programiranje\C#\CasAdv11Homework\obj\Debug\net6.0\CasAdv11Homework.dll
+E:\Miroslav\Programiranje\C#\CasAdv11Homework\obj\Debug\net6.0\refint\CasAdv11Homework.dll
+E:\Miroslav\Programiranje\C#\CasAdv11Homework\obj\Debug\net6.0\CasAdv11Homework.pdb
+E:\Miroslav\Programiranje\C#\CasAdv11Homework\obj\Debug\net6.0\CasAdv11Homework.genruntimeconfig.cache
+E:\Miroslav\Programiranje\C#\CasAdv11Homework\obj\Debug\net6.0\ref\CasAdv11Homework.dll
+E:\Miroslav\Programiranje\C#\CasAdv11Homework\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\Miroslav\Programiranje\C#\CasAdv11Homework\obj\Debug\net6.0\CasAdv11Homework.csproj.CopyComplete

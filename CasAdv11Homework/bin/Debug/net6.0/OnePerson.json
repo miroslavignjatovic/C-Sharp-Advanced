@@ -1,0 +1,19 @@
+{
+  "Name": "Pera",
+  "Surname": "peric",
+  "Age": 25,
+  "Course": [
+    {
+      "Name": "csarp",
+      "Grade": 9
+    },
+    {
+      "Name": "javascript",
+      "Grade": 10
+    },
+    {
+      "Name": "sql",
+      "Grade": 8
+    }
+  ]
+}
